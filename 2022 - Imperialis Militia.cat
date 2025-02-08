@@ -2102,7 +2102,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <categoryLink name="SA or IM Unit" hidden="false" id="628e-9fb-ce89-7f7" targetId="4aca-2849-7f41-0200" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="375d-cfae-bfa2-b9db" name="1) Militia Lieutenant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="375d-cfae-bfa2-b9db" name="1) Militia Lieutenant" hidden="false" collective="false" import="true" type="model" sortIndex="1">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3e3-e3e3-c561-b3ef" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c9d-cf03-fb6a-9076" type="max"/>
@@ -2419,7 +2419,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a98a-ca6c-c8f8-4d18" name="2) Militia Bodyguard" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a98a-ca6c-c8f8-4d18" name="2) Militia Bodyguard" hidden="false" collective="false" import="true" type="model" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="4" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9cc5-995b-9a52-416d" type="min"/>
             <constraint field="selections" scope="parent" value="19" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1f5-e68a-ce8a-f0c3" type="max"/>
@@ -2749,7 +2749,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e1bd-2988-249c-2af7" name="3) Unit Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6fa-04d1-9371-6db1">
+        <selectionEntryGroup id="e1bd-2988-249c-2af7" name="3) Unit Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6fa-04d1-9371-6db1" sortIndex="5">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c028-7e28-aa58-ac17" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="827a-e0e3-73f6-3277" type="min"/>
@@ -2763,7 +2763,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <entryLink id="c6fa-04d1-9371-6db1" name="Flak Armour" hidden="false" collective="false" import="true" targetId="f02b-00e7-b68c-3be0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1895-1aa7-69de-07b2" name="4) Dedicated Transport" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1895-1aa7-69de-07b2" name="4) Dedicated Transport" hidden="false" collective="false" import="true" sortIndex="7">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c290-0d83-150b-5ce6" type="max"/>
           </constraints>
@@ -2823,19 +2823,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="8536-2310-9533-c48c" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
+        <entryLink id="8536-2310-9533-c48c" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry" sortIndex="3">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8410-225e-a3f3-3c74" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ec2-c902-c34c-edb6" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="0888-274e-623a-5916" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="99df-2421-acf7-a5ad" type="selectionEntry">
+        <entryLink id="0888-274e-623a-5916" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="99df-2421-acf7-a5ad" type="selectionEntry" sortIndex="4">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d4d-3dfe-597d-f9d7" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f967-1066-27b6-f4ac" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="ee8a-3d77-b3fc-8f04" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
+        <entryLink id="ee8a-3d77-b3fc-8f04" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup" sortIndex="6"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="13"/>
